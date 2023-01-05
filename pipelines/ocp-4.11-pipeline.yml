@@ -15,7 +15,7 @@
     dci_local_log_dir: ~/upload-errors
     dci_tags: []
     install_type: assisted
-  topic: OCP-4.12
+  topic: OCP-4.11
   components:
     - ocp?tags:build:ga
   outputs:
