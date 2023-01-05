@@ -4,7 +4,7 @@
   stage: ocp
   ansible_playbook: /usr/share/dci-openshift-agent/dci-openshift-agent.yml
   ansible_cfg: ~/p3ck-douglas-config/pipelines/ansible.cfg
-  ansible_inventory: ~/p3ck-douglas-config/inventories/@QUEUE/@RESOURCE
+  ansible_inventory: ~/p3ck-douglas-config/inventories/@QUEUE/@RESOURCE.yml
   dci_credentials: ~/.config/dci-pipeline/dci_credentials.yml
   ansible_extravars:
     dci_cache_dir: ~/dci-cache-dir
